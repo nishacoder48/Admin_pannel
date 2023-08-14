@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    margin-left: 265px;
+    height: 80px;
+    width: 150px;
+}
+#paira {
+    text-align: center;
+    margin-bottom: 30px;   
+}
+.user-form-divider {
+    width: 1px;
+    height: 240px;
+    margin: 0px 50px;
+    background: grey;
+    position: relative;
+    z-index: 1;
+}
+.user-form-divider p {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+    font-style: italic;
+    line-height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    color:grey;
+    background: white;
+    border: 1px solid var(--border);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+   -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.box{
+   border: 1px solid #49aaff;
+   border-radius: 5px;
+   margin: 10px 0;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 38px;
+}
+
+a{
+   text-decoration: none;
+}
+.fab.fa-google.google-icon{
+   color: red;
+   font-size: 15px;
+   margin-right: 15px;
+}
+.fa-brands.fa-facebook{
+    color: blue;
+    font-size: 15px;
+    margin-right: 10px;
+ }
+.box a{
+   color: rgb(46, 45, 45);
+}
